@@ -39,4 +39,7 @@ func main() {
 
 	// Выводим результат
 	fmt.Printf("🎯 Результат: %.2f %s %.2f = %.2f\n", a, operation, b, result)
+
 }
+
+//CALCULATOR!!!!
