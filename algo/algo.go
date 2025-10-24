@@ -78,6 +78,16 @@ func Calculator(a float64, b float64, operation string) (float64, error) {
 	}
 
 }
+
+func CofeCounter(n, d int) int {
+	var freeCoups int
+	freeCoups = d / 7
+	d -= freeCoups
+	freeCoups += freeCoups / n
+
+	return freeCoups
+}
+
 func InteractiveMode() {
 	fmt.Println("🧮 Добро пожаловать в калькулятор!")
 	fmt.Println("Введите 'exit' для выхода")
