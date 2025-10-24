@@ -3,10 +3,12 @@ package main
 import "fmt"
 
 func main() {
-	d := 1000
-	var coups int
-	coups = d / 7
-	fmt.Println(coups)
+	var n, d int
+	fmt.Scan(&n, &d)
+	var freeCoups int
+	freeCoups = d / 7
+	d -= freeCoups
+	freeCoups += freeCoups / n
 }
 
 //CALCULATOR!!!!
