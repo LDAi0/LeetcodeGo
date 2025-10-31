@@ -9,6 +9,7 @@ func main() {
 	freeCoups = d / 7
 	d -= freeCoups
 	freeCoups += freeCoups / n
+	fmt.Println(freeCoups)
 }
 
 //CALCULATOR!!!!

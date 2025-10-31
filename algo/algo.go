@@ -80,11 +80,11 @@ func Calculator(a float64, b float64, operation string) (float64, error) {
 }
 
 func CofeCounter(n, d int) int {
+	fmt.Scan(&n, &d)
 	var freeCoups int
 	freeCoups = d / 7
 	d -= freeCoups
 	freeCoups += freeCoups / n
-
 	return freeCoups
 }
 
