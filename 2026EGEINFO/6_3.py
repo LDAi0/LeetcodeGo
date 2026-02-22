@@ -5,15 +5,22 @@ m=50
 
 left(90)
 
-for i in range(4):
-    forward(10*m)
+for i in range(0,2):
+    forward(14*m)
+    left(270)
+    backward(12*m)
     right(90)
-right(30)
-for i in range(5):
+penup()
+forward(9*m)
+right(90)
+backward(7*m)
+left(90)
+pendown()
+for i in range(0,2):
+    forward(13*m)
+    right(90)
     forward(6*m)
-    right(60)
-    forward(6*m)
-    right(120)
+    right(90)
 penup()
 
 for x in range(-100,100):
