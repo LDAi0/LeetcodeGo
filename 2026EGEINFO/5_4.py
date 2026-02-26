@@ -11,7 +11,7 @@ for n in range(4,1000):
     if n%3==0:
         n1=n1+n1[-3]+n1[-2]+n1[-1]
     else:
-        n1=n1+to_base((n%3)*3,2)
+        n1=n1[-1]+to_base((n%3)*3,2)
     r=int(n1,2)
     if r>=200:
         print("asdasd")
